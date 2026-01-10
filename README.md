@@ -1,5 +1,5 @@
-🔐 NLP-Based Password Strength Classification
-📌 Project Overview
+## 🔐 NLP-Based Password Strength Classification
+### 📌 Project Overview
 
 This project builds a machine learning model to evaluate password strength using Natural Language Processing (NLP) techniques.
 Passwords are treated as text sequences, and character-level features are extracted to classify passwords into weak, medium, or strong categories.
@@ -14,7 +14,7 @@ Supervised classification with multiple ML models
 
 Model evaluation and comparison
 
-🧠 Problem Statement
+## 🧠 Problem Statement
 
 Weak passwords are a major cybersecurity risk. Traditional rule-based approaches (length, symbols, etc.) are limited.
 
@@ -55,7 +55,7 @@ Matplotlib / Seaborn
 
 NLP (TF-IDF, character n-grams)
 
-⚙️ Methodology
+## ⚙️ Methodology
 1️⃣ Data Loading
 
 Connected to a SQLite database
@@ -108,7 +108,7 @@ Confusion Matrix
 
 Classification Report (Precision, Recall, F1-Score)
 
-📊 Results
+## 📊 Results
 
 Character-level TF-IDF performed effectively for password strength detection
 
@@ -116,19 +116,30 @@ Strong passwords show higher entropy and diverse character patterns
 
 Tree-based and linear models both performed competitively
 
-🚀 How to Run the Project
-1️⃣ Clone the repository
+## 🚀 How to Run the Project
+
+### 1️⃣ Clone the repository
+```bash
 git clone https://github.com/USERNAME/NLP-password-strength.git
 cd NLP-password-strength
+```
 
-2️⃣ Install dependencies
+### 2️⃣ Install dependencies
+```bash
 pip install pandas numpy scikit-learn matplotlib seaborn
+```
 
-3️⃣ Open Jupyter Notebook
+### 3️⃣ Open the Jupyter Notebook
+```bash
 jupyter notebook NLP_password_strength.ipynb
+```
 
-4️⃣ Run all cells
-📈 Key Learnings
+### 4️⃣ Run all cells
+Execute all cells in the notebook to train the model and view results.
+
+
+
+## 📈 Key Learnings
 
 NLP techniques can be applied beyond traditional text (emails, reviews)
 
@@ -136,7 +147,7 @@ Character-level modeling is powerful for security-related problems
 
 TF-IDF + classical ML models can outperform simple rule-based systems
 
-🔮 Future Improvements
+## 🔮 Future Improvements
 
 Deep learning models (LSTM / CNN)
 
